@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("./wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+}
+
+.conteudo-principal {
+  position: absolute;
+  width: 600px;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  height: 400px;
+}
+
+.buttons {
+  background-color: rgba(236, 243, 255, 0.4);
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.buttons button {
+  background-color: rgba (236, 243, 255, 0.7);
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+  margin-right: 3px;
+  margin-top: 3px;
+  border: none;
+  outline: none;
+}
+
+.buttons input {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%; /* aparentemente isto não faz nada.. */
+  margin-right: 3px;
+  margin-top: 3px;
+  border: none;
+  outline: none;
+  object-fit: cover;
+}
+
+.buttons select {
+  height: 20px;
+  margin-right: 3px;
+  margin-top: 3px;
+  border: none;
+  outline: none;
+}
+
+.texto-conteudo {
+  background: rgba(255, 255, 255, 0.96);
+  border: 3px solid rgba(236, 243, 255, 0.7);
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.texto-conteudo {
+  font-family: Arial, Helvetica, sans-serif;
+}
